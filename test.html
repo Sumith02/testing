@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+        
+        .welcome-text {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <font class="welcome-text"><span><strong>Welcome: </strong></span></font>
+
+    <script>
+        // Assume you have a variable 'userName' containing the name
+        const userName = "John";
+
+        // Get the element by class name and append the user name
+        const welcomeText = document.querySelector('.welcome-text');
+        welcomeText.innerHTML += userName;
+    </script>
+
+</body>
+
+</html>
